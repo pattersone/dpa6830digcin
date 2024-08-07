@@ -1,8 +1,8 @@
-- title: About
-  url: /about.html
+- title: Resources 
+  url: /resources.html
 
-- title: Source
-  url: https://github.com/patdryburgh/hitchens
+- title: Syllabus 
+  url: /syllabus.html
 
-- title: Designer
-  url: http://patdryburgh.com
+- title: "Eric's Main Site"
+  url: https://people.computing.clemson.edu/~ekp/index.html
