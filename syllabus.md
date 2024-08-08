@@ -1,5 +1,5 @@
 ---
-layout: syllabus
+layout: post 
 title: Syllabus 
 ---
 ## Digital Cinematography

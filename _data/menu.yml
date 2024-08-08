@@ -1,8 +1,8 @@
 - title: Resources 
-  url: /resources.html
+  url: "/./resources.html"
 
 - title: Syllabus 
-  url: /syllabus.html
+  url: "/./syllabus.html"
 
 - title: "Eric's Main Site"
   url: https://people.computing.clemson.edu/~ekp/index.html
