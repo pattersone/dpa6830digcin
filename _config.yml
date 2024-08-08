@@ -16,10 +16,14 @@
 title: "DPA 6830: Digital Cinematography" 
 email: ekp@clemson.edu 
 description: "Exposing some well composed ideas."
-url: "https://people.computing.clemson.edu/~ekp/courses/dpa6830digcin"
-baseurl: ""
+baseurl: "/~ekp/courses/dpa6830digcin"
+url: "https://people.computing.clemson.edu"
 icon: /assets/images/icon-512.png
 github_username: pattersone 
+
+# OKAY -- b script overrides baseurl "" with jekyll serve... need to run bundle exec jekyll build then upload with this setup to work on SoC site.
+
+
 
 # Build settings
 markdown: kramdown

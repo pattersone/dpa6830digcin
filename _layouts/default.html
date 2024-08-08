@@ -10,8 +10,7 @@
 
     {% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}  
 
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
-
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}?{{ site.time | date: '%s%N' }}">
 
     <link rel="apple-touch-icon" href="{{ site.icon }}">
 
@@ -20,9 +19,6 @@
 
     {{ content }}
 
-    {% unless site.hide_search %}
-      {% include search.html %}
-    {% endunless %}
 
     {% include menu.html %}
 

@@ -1,0 +1,2 @@
+tar -cvzf d.tgz .
+
